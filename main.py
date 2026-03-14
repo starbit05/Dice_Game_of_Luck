@@ -77,7 +77,7 @@ rol= Button(text="Roll",command=roll)
 resolt=Label(screen)
 exot=Button(text="EXIT",command=sxit)
 
-guess = Label(text="lock guess", command=kwuess())
+gess = Button(text="lock guess", command=kwuess)
 
 ent = Entry(screen)
 tr = Label(text=0)
@@ -93,7 +93,7 @@ exot.grid(row=3,column=2)
 ent.grid(row=3,column=1)
 img.grid(row=2, column=3)
 tr.grid(row=3,column=0)
-guess.grid(row=3,column=1)
+gess.grid(row=3,column=2)
 
 screen.bind('<Return>', kwuess)
 
